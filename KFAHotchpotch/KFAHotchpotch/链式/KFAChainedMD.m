@@ -45,4 +45,18 @@
     };
 }
 
+- (KFAChainedMD *)changeName:(NSString *(^)(NSString *))changeNameBlock {
+    if (changeNameBlock) {
+        self.mName = changeNameBlock(self.mName);
+    }
+    return self;
+}
+
+- (BOOL)isAaron:(BOOL (^)(NSString *))judge {
+    if (judge) {
+        return judge(self.mName);
+    }
+    return NO;
+}
+
 @end

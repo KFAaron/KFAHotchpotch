@@ -20,7 +20,13 @@
     
     KFAChainedMD *md = [[KFAChainedMD alloc] init];
     md.name(@"Aaron").age(18).eat(@"苹果").sing(@"你好");
-    
+    [[md changeName:^NSString *(NSString *oldName) {
+        NSLog(@"原来的名字叫%@",oldName);
+        return @"Tom";
+    }] isAaron:^BOOL(NSString *name) {
+        NSLog(@"目前名字叫%@",name);
+        return [name isEqualToString:@"Aaron"];
+    }];
 }
 
 
