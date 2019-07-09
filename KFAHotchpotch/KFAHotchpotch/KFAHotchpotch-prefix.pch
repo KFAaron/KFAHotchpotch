@@ -1,0 +1,17 @@
+//
+//  KFAHotchpotch-prefix.pch
+//  KFAHotchpotch
+//
+//  Created by KFAaron on 2019/7/9.
+//  Copyright © 2019 KFAaron. All rights reserved.
+//
+
+#ifndef KFAHotchpotch_prefix_pch
+#define KFAHotchpotch_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "KFAMacro.h"
+
+#endif /* KFAHotchpotch_prefix_pch */

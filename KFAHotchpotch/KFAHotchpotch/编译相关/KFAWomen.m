@@ -11,15 +11,15 @@
 @implementation KFAWomen
 
 + (void)load {
-    NSLog(@"Class：%@, func：%s, line：%d",NSStringFromClass([self class]), __func__, __LINE__);
+    KFALog(@"Class：%@, func：%s, line：%d",NSStringFromClass([self class]), __func__, __LINE__);
 }
 
 + (void)initialize {
-    NSLog(@"Class：%@, func：%s, line：%d",NSStringFromClass([self class]), __func__, __LINE__);
+    KFALog(@"Class：%@, func：%s, line：%d",NSStringFromClass([self class]), __func__, __LINE__);
 }
 
 - (void)sing {
-    NSLog(@"Class：%@, func：%s, line：%d",NSStringFromClass([self class]), __func__, __LINE__);
+    KFALog(@"Class：%@, func：%s, line：%d",NSStringFromClass([self class]), __func__, __LINE__);
 }
 
 @end

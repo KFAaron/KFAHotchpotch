@@ -33,14 +33,14 @@
 
 - (KFAChainedMD *(^)(NSString *))eat {
     return ^(NSString *fd) {
-        NSLog(@"%ld岁的%@在吃%@",self.mAge,self.mName,fd);
+        KFALog(@"%ld岁的%@在吃%@",self.mAge,self.mName,fd);
         return self;
     };
 }
 
 - (KFAChainedMD *(^)(NSString *))sing {
     return ^(NSString *sg) {
-        NSLog(@"%ld岁的%@在唱%@",self.mAge,self.mName,sg);
+        KFALog(@"%ld岁的%@在唱%@",self.mAge,self.mName,sg);
         return self;
     };
 }

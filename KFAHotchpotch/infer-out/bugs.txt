@@ -1,0 +1,63 @@
+Found 7 issues
+
+KFAHotchpotch/ViewController.m:32: error: DEAD_STORE
+  The value written to &aa (type NSString*) is never used.
+  30.   //    }];
+  31.       
+  32. >     NSString *aa = @"";
+  33.       
+  34.       NSArray *bb = @[@"",@"",@""];
+
+KFAHotchpotch/ViewController.m:35: error: DEAD_STORE
+  The value written to &cc (type NSString*) is never used.
+  33.       
+  34.       NSArray *bb = @[@"",@"",@""];
+  35. >     NSString *cc = bb[3];
+  36.   }
+  37.   
+
+KFAHotchpotch/链式/KFAChainedMD.m:25: error: USE_AFTER_LIFETIME
+  Reference to stack variable self is returned at line 25, column 1.
+  23.           return self;
+  24.       };
+  25. > }
+  26.   
+  27.   - (KFAChainedMD *(^)(NSUInteger))age {
+
+KFAHotchpotch/链式/KFAChainedMD.m:32: error: USE_AFTER_LIFETIME
+  Reference to stack variable self is returned at line 32, column 1.
+  30.           return self;
+  31.       };
+  32. > }
+  33.   
+  34.   - (KFAChainedMD *(^)(NSString *))eat {
+
+KFAHotchpotch/链式/KFAChainedMD.m:39: error: USE_AFTER_LIFETIME
+  Reference to stack variable self is returned at line 39, column 1.
+  37.           return self;
+  38.       };
+  39. > }
+  40.   
+  41.   - (KFAChainedMD *(^)(NSString *))sing {
+
+KFAHotchpotch/链式/KFAChainedMD.m:46: error: USE_AFTER_LIFETIME
+  Reference to stack variable self is returned at line 46, column 1.
+  44.           return self;
+  45.       };
+  46. > }
+  47.   
+  48.   - (KFAChainedMD *)changeName:(NSString *(^)(NSString *))changeNameBlock {
+
+KFAHotchpotch/ViewController.m:23: warning: DIRECT_ATOMIC_PROPERTY_ACCESS
+  Direct access to ivar `_ss` of an atomic property at line 23, column 12. Accessing an ivar of an atomic property makes the property nonatomic.
+  21.       
+  22.   //    KFAChainedMD *md = [[KFAChainedMD alloc] init];
+  23. > //    md.name(@"Aaron").age(18).eat(@"苹果").sing(@"你好");
+  24.   //    [[md changeName:^NSString *(NSString *oldName) {
+  25.   //        NSLog(@"原来的名字叫%@",oldName);
+
+Summary of the reports
+
+             USE_AFTER_LIFETIME: 4
+                     DEAD_STORE: 2
+  DIRECT_ATOMIC_PROPERTY_ACCESS: 1

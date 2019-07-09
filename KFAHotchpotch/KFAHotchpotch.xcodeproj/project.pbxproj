@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E437F2C422D469ED0012E695 /* KFAChainedDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */; };
+		E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2CB22D46AE30012E695 /* KFACompileController.m */; };
+		E437F2CE22D46AE30012E695 /* KFACompileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E437F2CC22D46AE30012E695 /* KFACompileController.xib */; };
 		E495C9BA22B0DC230011C5C6 /* KFAPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9B922B0DC230011C5C6 /* KFAPerson.m */; };
 		E495C9BD22B0DD810011C5C6 /* KFAMan.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9BC22B0DD810011C5C6 /* KFAMan.m */; };
 		E495C9C022B0E03D0011C5C6 /* KFAWomen.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9BF22B0E03D0011C5C6 /* KFAWomen.m */; };
@@ -39,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E437F2C222D469ED0012E695 /* KFAChainedDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAChainedDemoController.h; sourceTree = "<group>"; };
+		E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAChainedDemoController.m; sourceTree = "<group>"; };
+		E437F2CA22D46AE30012E695 /* KFACompileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFACompileController.h; sourceTree = "<group>"; };
+		E437F2CB22D46AE30012E695 /* KFACompileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFACompileController.m; sourceTree = "<group>"; };
+		E437F2CC22D46AE30012E695 /* KFACompileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KFACompileController.xib; sourceTree = "<group>"; };
+		E437F2CF22D47E430012E695 /* KFAHotchpotch-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KFAHotchpotch-prefix.pch"; sourceTree = "<group>"; };
+		E437F2D022D47E980012E695 /* KFAMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMacro.h; sourceTree = "<group>"; };
 		E495C9B822B0DC230011C5C6 /* KFAPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAPerson.h; sourceTree = "<group>"; };
 		E495C9B922B0DC230011C5C6 /* KFAPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAPerson.m; sourceTree = "<group>"; };
 		E495C9BB22B0DD810011C5C6 /* KFAMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMan.h; sourceTree = "<group>"; };
@@ -99,6 +109,9 @@
 				E495C9BC22B0DD810011C5C6 /* KFAMan.m */,
 				E495C9BE22B0E03D0011C5C6 /* KFAWomen.h */,
 				E495C9BF22B0E03D0011C5C6 /* KFAWomen.m */,
+				E437F2CA22D46AE30012E695 /* KFACompileController.h */,
+				E437F2CB22D46AE30012E695 /* KFACompileController.m */,
+				E437F2CC22D46AE30012E695 /* KFACompileController.xib */,
 			);
 			path = "编译相关";
 			sourceTree = "<group>";
@@ -137,6 +150,8 @@
 				E4F34A8222966BCA00B1620F /* LaunchScreen.storyboard */,
 				E4F34A8522966BCA00B1620F /* Info.plist */,
 				E4F34A8622966BCA00B1620F /* main.m */,
+				E437F2CF22D47E430012E695 /* KFAHotchpotch-prefix.pch */,
+				E437F2D022D47E980012E695 /* KFAMacro.h */,
 			);
 			path = KFAHotchpotch;
 			sourceTree = "<group>";
@@ -164,6 +179,8 @@
 			children = (
 				E4F34AAA229678F100B1620F /* KFAChainedMD.h */,
 				E4F34AAB229678F100B1620F /* KFAChainedMD.m */,
+				E437F2C222D469ED0012E695 /* KFAChainedDemoController.h */,
+				E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */,
 			);
 			path = "链式";
 			sourceTree = "<group>";
@@ -230,6 +247,7 @@
 		E4F34A6C22966BC900B1620F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KFA;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = KFAaron;
 				TargetAttributes = {
@@ -271,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E437F2CE22D46AE30012E695 /* KFACompileController.xib in Resources */,
 				E4F34A8422966BCA00B1620F /* LaunchScreen.storyboard in Resources */,
 				E4F34A8122966BCA00B1620F /* Assets.xcassets in Resources */,
 				E4F34A7F22966BC900B1620F /* Main.storyboard in Resources */,
@@ -302,9 +321,11 @@
 				E495C9BD22B0DD810011C5C6 /* KFAMan.m in Sources */,
 				E4F34A7C22966BC900B1620F /* ViewController.m in Sources */,
 				E495C9C022B0E03D0011C5C6 /* KFAWomen.m in Sources */,
+				E437F2C422D469ED0012E695 /* KFAChainedDemoController.m in Sources */,
 				E495C9BA22B0DC230011C5C6 /* KFAPerson.m in Sources */,
 				E4F34A8722966BCA00B1620F /* main.m in Sources */,
 				E4F34A7922966BC900B1620F /* AppDelegate.m in Sources */,
+				E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +497,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/kfaaron/Desktop/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				INFOPLIST_FILE = KFAHotchpotch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,6 +515,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/kfaaron/Desktop/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				INFOPLIST_FILE = KFAHotchpotch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

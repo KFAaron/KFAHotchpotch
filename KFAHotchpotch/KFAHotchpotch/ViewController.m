@@ -7,10 +7,14 @@
 //
 
 #import "ViewController.h"
-#import "KFAChainedMD.h"
-#import "KFAMan.h"
 
-@interface ViewController ()
+static NSString * const kTitle = @"kTitle";
+static NSString * const kClassName = @"kClassName";
+
+@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, copy) NSArray *dataSource;
 
 @end
 
@@ -19,25 +23,78 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    KFAChainedMD *md = [[KFAChainedMD alloc] init];
-//    md.name(@"Aaron").age(18).eat(@"苹果").sing(@"你好");
-//    [[md changeName:^NSString *(NSString *oldName) {
-//        NSLog(@"原来的名字叫%@",oldName);
-//        return @"Tom";
-//    }] isAaron:^BOOL(NSString *name) {
-//        NSLog(@"目前名字叫%@",name);
-//        return [name isEqualToString:@"Aaron"];
-//    }];
+    [self configDatasource];
+    [self.tableView reloadData];
 }
 
-- (IBAction)clickAction:(id)sender {
-    KFAMan *man = [[KFAMan alloc] init];
-    [man work];
+- (void)configDatasource {
+    
+    self.dataSource = ({
+        NSArray *arr = @[
+  @{kTitle:@"编译",kClassName:@"KFACompileController"},
+  @{kTitle:@"链式",kClassName:@"KFAChainedDemoController"},
+  @{kTitle:@"阅读器",kClassName:@""},
+  @{kTitle:@"音乐播放器"}];
+        arr;
+    });
 }
 
-- (IBAction)clickAgain:(id)sender {
-    KFAMan *man = [[KFAMan alloc] init];
-    [man work];
+#pragma mark - UITableViewDelegate and UITableViewDataSource
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return self.dataSource.count;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"KFAMainTableViewCellIndentifier" forIndexPath:indexPath];
+    if (indexPath.section < self.dataSource.count) {
+        NSDictionary *data = self.dataSource[indexPath.section];
+        cell.textLabel.text = data[kTitle];
+    }
+    return cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 44;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 5;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor clearColor];
+    return view;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    if (indexPath.section < self.dataSource.count) {
+        NSDictionary *data = self.dataSource[indexPath.section];
+        NSString *className = data[kClassName];
+        Class vcClass = NSClassFromString(className);
+        if ([[vcClass alloc] isKindOfClass:[UIViewController class]]) {
+            UIViewController *vc = [[vcClass alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        } else {
+            [self toBeDevelopedTip];
+        }
+    }
+}
+
+- (void)toBeDevelopedTip {
+    
+    KFALog(@"待开发提示");
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"此功能待开发~" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"哦了" style:UIAlertActionStyleCancel handler:nil];
+    [alert addAction:okAction];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 @end
