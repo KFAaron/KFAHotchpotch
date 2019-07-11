@@ -9,6 +9,10 @@
 #ifndef KFAMacro_h
 #define KFAMacro_h
 
+// 屏宽高
+#define kScreenWidth ([[UIScreen mainScreen] bounds].size.width)
+#define kScreenHeight ([[UIScreen mainScreen] bounds].size.height)
+
 #ifdef DEBUG
 #define KFALog(format, ...) NSLog(format, ## __VA_ARGS__)
 #else

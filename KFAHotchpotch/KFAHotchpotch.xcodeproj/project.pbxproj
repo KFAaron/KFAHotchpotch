@@ -7,12 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A22912941B82C6D366D9391 /* libPods-KFAHotchpotchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB33642AC7E2324793BB73DD /* libPods-KFAHotchpotchTests.a */; };
+		6265E417478E9F40AD5C346F /* libPods-KFAHotchpotch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F72522146C02B3B855A2E7E /* libPods-KFAHotchpotch.a */; };
 		E437F2C422D469ED0012E695 /* KFAChainedDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */; };
 		E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2CB22D46AE30012E695 /* KFACompileController.m */; };
 		E437F2CE22D46AE30012E695 /* KFACompileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E437F2CC22D46AE30012E695 /* KFACompileController.xib */; };
+		E437F2F422D57C1E0012E695 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2D522D57C1E0012E695 /* CXMLDocument.m */; };
+		E437F2F522D57C1E0012E695 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2D622D57C1E0012E695 /* CXMLNode.m */; };
+		E437F2F622D57C1E0012E695 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2D722D57C1E0012E695 /* CXMLNamespaceNode.m */; };
+		E437F2F722D57C1E0012E695 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2D822D57C1E0012E695 /* CXMLNode_XPathExtensions.m */; };
+		E437F2F822D57C1E0012E695 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2DA22D57C1E0012E695 /* CXMLNode_PrivateExtensions.m */; };
+		E437F2F922D57C1E0012E695 /* CXMLUnsupportedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2DD22D57C1E0012E695 /* CXMLUnsupportedNode.m */; };
+		E437F2FA22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2DE22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m */; };
+		E437F2FB22D57C1E0012E695 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2E822D57C1E0012E695 /* CXMLNode_CreationExtensions.m */; };
+		E437F2FC22D57C1E0012E695 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2E922D57C1E0012E695 /* CXMLDocument_CreationExtensions.m */; };
+		E437F2FD22D57C1E0012E695 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2EC22D57C1E0012E695 /* CTidy.m */; };
+		E437F2FE22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2ED22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.m */; };
+		E437F2FF22D57C1E0012E695 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2EE22D57C1E0012E695 /* CXHTMLDocument.m */; };
+		E437F30022D57C1E0012E695 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2F022D57C1E0012E695 /* CXMLElement_CreationExtensions.m */; };
+		E437F30122D57C1E0012E695 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2F122D57C1E0012E695 /* CXMLElement.m */; };
+		E437F30822D57D4A0012E695 /* KFAReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F30722D57D4A0012E695 /* KFAReader.m */; };
+		E437F30B22D57ED60012E695 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E437F30922D57DB90012E695 /* libz.tbd */; };
+		E437F31622D57FDB0012E695 /* ic_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F30D22D57FDA0012E695 /* ic_add.png */; };
+		E437F31722D57FDB0012E695 /* 每天懂一点好玩心理学.epub in Resources */ = {isa = PBXBuildFile; fileRef = E437F30E22D57FDA0012E695 /* 每天懂一点好玩心理学.epub */; };
+		E437F31822D57FDB0012E695 /* reader_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F30F22D57FDA0012E695 /* reader_more@2x.png */; };
+		E437F31922D57FDB0012E695 /* bg_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F31022D57FDA0012E695 /* bg_back_white.png */; };
+		E437F31A22D57FDB0012E695 /* r_drag-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F31122D57FDA0012E695 /* r_drag-dot@2x.png */; };
+		E437F31B22D57FDB0012E695 /* reader_cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F31222D57FDA0012E695 /* reader_cover@2x.png */; };
+		E437F31C22D57FDB0012E695 /* bg_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F31322D57FDA0012E695 /* bg_back_white@2x.png */; };
+		E437F31D22D57FDB0012E695 /* sale_discount_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = E437F31422D57FDA0012E695 /* sale_discount_yellow.png */; };
+		E437F31E22D57FDB0012E695 /* 细说明朝.epub in Resources */ = {isa = PBXBuildFile; fileRef = E437F31522D57FDB0012E695 /* 细说明朝.epub */; };
+		E437F32122D5811F0012E695 /* KFAChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F32022D5811F0012E695 /* KFAChapterModel.m */; };
+		E437F32D22D5B6F60012E695 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F32822D5B6F60012E695 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E437F32E22D5B6F60012E695 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F32922D5B6F60012E695 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E437F32F22D5B6F60012E695 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F32A22D5B6F60012E695 /* UIImage+ImageEffects.m */; };
+		E437F33222D5BDCE0012E695 /* KFAReadConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F33122D5BDCE0012E695 /* KFAReadConfig.m */; };
+		E437F33522D5C0360012E695 /* KFAReadParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F33422D5C0360012E695 /* KFAReadParser.m */; };
+		E437F33B22D5C2E10012E695 /* KFARecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F33A22D5C2E10012E695 /* KFARecordModel.m */; };
+		E437F33E22D5C3850012E695 /* KFANoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F33D22D5C3850012E695 /* KFANoteModel.m */; };
+		E437F34122D5C8DF0012E695 /* KFAMarkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F34022D5C8DF0012E695 /* KFAMarkModel.m */; };
+		E437F34422D5C9680012E695 /* KFAReadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F34322D5C9680012E695 /* KFAReadModel.m */; };
+		E437F34722D5E5390012E695 /* KFAReadUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F34622D5E5390012E695 /* KFAReadUtilites.m */; };
+		E437F34A22D600370012E695 /* KFAReadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F34922D600370012E695 /* KFAReadView.m */; };
+		E437F34D22D6005C0012E695 /* KFAReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F34C22D6005C0012E695 /* KFAReadViewController.m */; };
+		E437F35022D601A80012E695 /* KFAMagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F34F22D601A80012E695 /* KFAMagnifierView.m */; };
+		E437F35322D606430012E695 /* KFAViewPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F35222D606430012E695 /* KFAViewPagerVC.m */; };
+		E437F35822D60B750012E695 /* KFACatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F35722D60B750012E695 /* KFACatalogViewController.m */; };
+		E437F35B22D60C2E0012E695 /* KFAChapterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F35A22D60C2E0012E695 /* KFAChapterVC.m */; };
+		E437F35E22D60D390012E695 /* KFANoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F35D22D60D390012E695 /* KFANoteVC.m */; };
+		E437F36122D60EE60012E695 /* KFAMarkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F36022D60EE60012E695 /* KFAMarkVC.m */; };
+		E437F36422D611470012E695 /* KFATopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F36322D611470012E695 /* KFATopMenuView.m */; };
+		E437F36722D6117A0012E695 /* KFABottomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F36622D6117A0012E695 /* KFABottomMenuView.m */; };
+		E437F36A22D611E80012E695 /* KFAMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F36922D611E80012E695 /* KFAMenuView.m */; };
+		E437F36E22D61CE30012E695 /* KFAReaderDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F36C22D61CE30012E695 /* KFAReaderDemoController.m */; };
+		E437F36F22D61CE30012E695 /* KFAReaderDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E437F36D22D61CE30012E695 /* KFAReaderDemoController.xib */; };
+		E437F37122D61F220012E695 /* mdjyml.txt in Resources */ = {isa = PBXBuildFile; fileRef = E437F37022D61F220012E695 /* mdjyml.txt */; };
 		E495C9BA22B0DC230011C5C6 /* KFAPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9B922B0DC230011C5C6 /* KFAPerson.m */; };
 		E495C9BD22B0DD810011C5C6 /* KFAMan.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9BC22B0DD810011C5C6 /* KFAMan.m */; };
 		E495C9C022B0E03D0011C5C6 /* KFAWomen.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9BF22B0E03D0011C5C6 /* KFAWomen.m */; };
+		E4E3922BE0BE68DBA9A90C3E /* libPods-KFAHotchpotchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E075BD681A1CEEB8BCB5C1 /* libPods-KFAHotchpotchUITests.a */; };
 		E4F34A7922966BC900B1620F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F34A7822966BC900B1620F /* AppDelegate.m */; };
 		E4F34A7C22966BC900B1620F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F34A7B22966BC900B1620F /* ViewController.m */; };
 		E4F34A7F22966BC900B1620F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F34A7D22966BC900B1620F /* Main.storyboard */; };
@@ -42,6 +95,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E262BBF7621D8D392BD200 /* Pods-KFAHotchpotchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchTests/Pods-KFAHotchpotchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F72522146C02B3B855A2E7E /* libPods-KFAHotchpotch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFAHotchpotch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E075BD681A1CEEB8BCB5C1 /* libPods-KFAHotchpotchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFAHotchpotchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C10111A8581A503DBD89EB /* Pods-KFAHotchpotchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchUITests/Pods-KFAHotchpotchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FDAFE3CAF0CAF1F91A09FF2 /* Pods-KFAHotchpotch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotch/Pods-KFAHotchpotch.debug.xcconfig"; sourceTree = "<group>"; };
+		7287E6B6D5F899FE26E9401B /* Pods-KFAHotchpotchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchUITests/Pods-KFAHotchpotchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B84D1A32C91034176DD6DC2C /* Pods-KFAHotchpotch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotch.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotch/Pods-KFAHotchpotch.release.xcconfig"; sourceTree = "<group>"; };
+		C402A7AC3DE3BB188D7243B3 /* Pods-KFAHotchpotchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchTests/Pods-KFAHotchpotchTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB33642AC7E2324793BB73DD /* libPods-KFAHotchpotchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFAHotchpotchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E437F2C222D469ED0012E695 /* KFAChainedDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAChainedDemoController.h; sourceTree = "<group>"; };
 		E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAChainedDemoController.m; sourceTree = "<group>"; };
 		E437F2CA22D46AE30012E695 /* KFACompileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFACompileController.h; sourceTree = "<group>"; };
@@ -49,6 +111,97 @@
 		E437F2CC22D46AE30012E695 /* KFACompileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KFACompileController.xib; sourceTree = "<group>"; };
 		E437F2CF22D47E430012E695 /* KFAHotchpotch-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KFAHotchpotch-prefix.pch"; sourceTree = "<group>"; };
 		E437F2D022D47E980012E695 /* KFAMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMacro.h; sourceTree = "<group>"; };
+		E437F2D522D57C1E0012E695 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		E437F2D622D57C1E0012E695 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		E437F2D722D57C1E0012E695 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		E437F2D822D57C1E0012E695 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		E437F2D922D57C1E0012E695 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		E437F2DA22D57C1E0012E695 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		E437F2DB22D57C1E0012E695 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		E437F2DC22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		E437F2DD22D57C1E0012E695 /* CXMLUnsupportedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLUnsupportedNode.m; sourceTree = "<group>"; };
+		E437F2DE22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		E437F2DF22D57C1E0012E695 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		E437F2E022D57C1E0012E695 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		E437F2E122D57C1E0012E695 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		E437F2E222D57C1E0012E695 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		E437F2E322D57C1E0012E695 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		E437F2E422D57C1E0012E695 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		E437F2E622D57C1E0012E695 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		E437F2E722D57C1E0012E695 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		E437F2E822D57C1E0012E695 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		E437F2E922D57C1E0012E695 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		E437F2EB22D57C1E0012E695 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		E437F2EC22D57C1E0012E695 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		E437F2ED22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		E437F2EE22D57C1E0012E695 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		E437F2EF22D57C1E0012E695 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		E437F2F022D57C1E0012E695 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		E437F2F122D57C1E0012E695 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		E437F2F222D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		E437F2F322D57C1E0012E695 /* CXMLUnsupportedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLUnsupportedNode.h; sourceTree = "<group>"; };
+		E437F30622D57D4A0012E695 /* KFAReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReader.h; sourceTree = "<group>"; };
+		E437F30722D57D4A0012E695 /* KFAReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReader.m; sourceTree = "<group>"; };
+		E437F30922D57DB90012E695 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E437F30D22D57FDA0012E695 /* ic_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add.png; sourceTree = "<group>"; };
+		E437F30E22D57FDA0012E695 /* 每天懂一点好玩心理学.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "每天懂一点好玩心理学.epub"; sourceTree = "<group>"; };
+		E437F30F22D57FDA0012E695 /* reader_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_more@2x.png"; sourceTree = "<group>"; };
+		E437F31022D57FDA0012E695 /* bg_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_back_white.png; sourceTree = "<group>"; };
+		E437F31122D57FDA0012E695 /* r_drag-dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r_drag-dot@2x.png"; sourceTree = "<group>"; };
+		E437F31222D57FDA0012E695 /* reader_cover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reader_cover@2x.png"; sourceTree = "<group>"; };
+		E437F31322D57FDA0012E695 /* bg_back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_back_white@2x.png"; sourceTree = "<group>"; };
+		E437F31422D57FDA0012E695 /* sale_discount_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sale_discount_yellow.png; sourceTree = "<group>"; };
+		E437F31522D57FDB0012E695 /* 细说明朝.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "细说明朝.epub"; sourceTree = "<group>"; };
+		E437F31F22D5811F0012E695 /* KFAChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAChapterModel.h; sourceTree = "<group>"; };
+		E437F32022D5811F0012E695 /* KFAChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAChapterModel.m; sourceTree = "<group>"; };
+		E437F32222D5B4C10012E695 /* KFAReaderMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReaderMacro.h; sourceTree = "<group>"; };
+		E437F32622D5B6F60012E695 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		E437F32722D5B6F60012E695 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E437F32822D5B6F60012E695 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		E437F32922D5B6F60012E695 /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		E437F32A22D5B6F60012E695 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		E437F32B22D5B6F60012E695 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		E437F32C22D5B6F60012E695 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		E437F33022D5BDCE0012E695 /* KFAReadConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReadConfig.h; sourceTree = "<group>"; };
+		E437F33122D5BDCE0012E695 /* KFAReadConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReadConfig.m; sourceTree = "<group>"; };
+		E437F33322D5C0360012E695 /* KFAReadParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReadParser.h; sourceTree = "<group>"; };
+		E437F33422D5C0360012E695 /* KFAReadParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReadParser.m; sourceTree = "<group>"; };
+		E437F33922D5C2E10012E695 /* KFARecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFARecordModel.h; sourceTree = "<group>"; };
+		E437F33A22D5C2E10012E695 /* KFARecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFARecordModel.m; sourceTree = "<group>"; };
+		E437F33C22D5C3850012E695 /* KFANoteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFANoteModel.h; sourceTree = "<group>"; };
+		E437F33D22D5C3850012E695 /* KFANoteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFANoteModel.m; sourceTree = "<group>"; };
+		E437F33F22D5C8DF0012E695 /* KFAMarkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMarkModel.h; sourceTree = "<group>"; };
+		E437F34022D5C8DF0012E695 /* KFAMarkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAMarkModel.m; sourceTree = "<group>"; };
+		E437F34222D5C9680012E695 /* KFAReadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReadModel.h; sourceTree = "<group>"; };
+		E437F34322D5C9680012E695 /* KFAReadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReadModel.m; sourceTree = "<group>"; };
+		E437F34522D5E5390012E695 /* KFAReadUtilites.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReadUtilites.h; sourceTree = "<group>"; };
+		E437F34622D5E5390012E695 /* KFAReadUtilites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReadUtilites.m; sourceTree = "<group>"; };
+		E437F34822D600370012E695 /* KFAReadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReadView.h; sourceTree = "<group>"; };
+		E437F34922D600370012E695 /* KFAReadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReadView.m; sourceTree = "<group>"; };
+		E437F34B22D6005C0012E695 /* KFAReadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReadViewController.h; sourceTree = "<group>"; };
+		E437F34C22D6005C0012E695 /* KFAReadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReadViewController.m; sourceTree = "<group>"; };
+		E437F34E22D601A80012E695 /* KFAMagnifierView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMagnifierView.h; sourceTree = "<group>"; };
+		E437F34F22D601A80012E695 /* KFAMagnifierView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAMagnifierView.m; sourceTree = "<group>"; };
+		E437F35122D606430012E695 /* KFAViewPagerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAViewPagerVC.h; sourceTree = "<group>"; };
+		E437F35222D606430012E695 /* KFAViewPagerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAViewPagerVC.m; sourceTree = "<group>"; };
+		E437F35622D60B750012E695 /* KFACatalogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFACatalogViewController.h; sourceTree = "<group>"; };
+		E437F35722D60B750012E695 /* KFACatalogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFACatalogViewController.m; sourceTree = "<group>"; };
+		E437F35922D60C2E0012E695 /* KFAChapterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAChapterVC.h; sourceTree = "<group>"; };
+		E437F35A22D60C2E0012E695 /* KFAChapterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAChapterVC.m; sourceTree = "<group>"; };
+		E437F35C22D60D390012E695 /* KFANoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFANoteVC.h; sourceTree = "<group>"; };
+		E437F35D22D60D390012E695 /* KFANoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFANoteVC.m; sourceTree = "<group>"; };
+		E437F35F22D60EE60012E695 /* KFAMarkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMarkVC.h; sourceTree = "<group>"; };
+		E437F36022D60EE60012E695 /* KFAMarkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAMarkVC.m; sourceTree = "<group>"; };
+		E437F36222D611470012E695 /* KFATopMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFATopMenuView.h; sourceTree = "<group>"; };
+		E437F36322D611470012E695 /* KFATopMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFATopMenuView.m; sourceTree = "<group>"; };
+		E437F36522D6117A0012E695 /* KFABottomMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFABottomMenuView.h; sourceTree = "<group>"; };
+		E437F36622D6117A0012E695 /* KFABottomMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFABottomMenuView.m; sourceTree = "<group>"; };
+		E437F36822D611E80012E695 /* KFAMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMenuView.h; sourceTree = "<group>"; };
+		E437F36922D611E80012E695 /* KFAMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAMenuView.m; sourceTree = "<group>"; };
+		E437F36B22D61CE30012E695 /* KFAReaderDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAReaderDemoController.h; sourceTree = "<group>"; };
+		E437F36C22D61CE30012E695 /* KFAReaderDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAReaderDemoController.m; sourceTree = "<group>"; };
+		E437F36D22D61CE30012E695 /* KFAReaderDemoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KFAReaderDemoController.xib; sourceTree = "<group>"; };
+		E437F37022D61F220012E695 /* mdjyml.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mdjyml.txt; sourceTree = "<group>"; };
 		E495C9B822B0DC230011C5C6 /* KFAPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAPerson.h; sourceTree = "<group>"; };
 		E495C9B922B0DC230011C5C6 /* KFAPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAPerson.m; sourceTree = "<group>"; };
 		E495C9BB22B0DD810011C5C6 /* KFAMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMan.h; sourceTree = "<group>"; };
@@ -80,6 +233,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E437F30B22D57ED60012E695 /* libz.tbd in Frameworks */,
+				6265E417478E9F40AD5C346F /* libPods-KFAHotchpotch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +242,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A22912941B82C6D366D9391 /* libPods-KFAHotchpotchTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +250,200 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E3922BE0BE68DBA9A90C3E /* libPods-KFAHotchpotchUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E68AE8F50AEB1E208BDED26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E437F30922D57DB90012E695 /* libz.tbd */,
+				1F72522146C02B3B855A2E7E /* libPods-KFAHotchpotch.a */,
+				DB33642AC7E2324793BB73DD /* libPods-KFAHotchpotchTests.a */,
+				23E075BD681A1CEEB8BCB5C1 /* libPods-KFAHotchpotchUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E437F2D122D488B50012E695 /* 阅读器 */ = {
+			isa = PBXGroup;
+			children = (
+				E437F30C22D57EF80012E695 /* Resource */,
+				E437F30522D57C9B0012E695 /* Controller */,
+				E437F30322D57C9B0012E695 /* Model */,
+				E437F30422D57C9B0012E695 /* Util */,
+				E437F30222D57C9B0012E695 /* View */,
+				E437F32222D5B4C10012E695 /* KFAReaderMacro.h */,
+				E437F36B22D61CE30012E695 /* KFAReaderDemoController.h */,
+				E437F36C22D61CE30012E695 /* KFAReaderDemoController.m */,
+				E437F36D22D61CE30012E695 /* KFAReaderDemoController.xib */,
+			);
+			path = "阅读器";
+			sourceTree = "<group>";
+		};
+		E437F2D222D57C1E0012E695 /* 第三方 */ = {
+			isa = PBXGroup;
+			children = (
+				E437F2D322D57C1E0012E695 /* TouchXML */,
+			);
+			path = "第三方";
+			sourceTree = "<group>";
+		};
+		E437F2D322D57C1E0012E695 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				E437F32722D5B6F60012E695 /* GTMDefines.h */,
+				E437F32C22D5B6F60012E695 /* GTMNSString+HTML.h */,
+				E437F32822D5B6F60012E695 /* GTMNSString+HTML.m */,
+				E437F32B22D5B6F60012E695 /* NSString+HTML.h */,
+				E437F32922D5B6F60012E695 /* NSString+HTML.m */,
+				E437F32622D5B6F60012E695 /* UIImage+ImageEffects.h */,
+				E437F32A22D5B6F60012E695 /* UIImage+ImageEffects.m */,
+				E437F2D422D57C1E0012E695 /* Source */,
+			);
+			path = TouchXML;
+			sourceTree = "<group>";
+		};
+		E437F2D422D57C1E0012E695 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E437F2D522D57C1E0012E695 /* CXMLDocument.m */,
+				E437F2D622D57C1E0012E695 /* CXMLNode.m */,
+				E437F2D722D57C1E0012E695 /* CXMLNamespaceNode.m */,
+				E437F2D822D57C1E0012E695 /* CXMLNode_XPathExtensions.m */,
+				E437F2D922D57C1E0012E695 /* CXMLElement_CreationExtensions.h */,
+				E437F2DA22D57C1E0012E695 /* CXMLNode_PrivateExtensions.m */,
+				E437F2DB22D57C1E0012E695 /* CXHTMLDocument.h */,
+				E437F2DC22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.h */,
+				E437F2DD22D57C1E0012E695 /* CXMLUnsupportedNode.m */,
+				E437F2DE22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m */,
+				E437F2DF22D57C1E0012E695 /* CXMLElement.h */,
+				E437F2E022D57C1E0012E695 /* TouchXML.h */,
+				E437F2E122D57C1E0012E695 /* CXMLNamespaceNode.h */,
+				E437F2E222D57C1E0012E695 /* CXMLNode_XPathExtensions.h */,
+				E437F2E322D57C1E0012E695 /* CXMLNode.h */,
+				E437F2E422D57C1E0012E695 /* CXMLDocument.h */,
+				E437F2E522D57C1E0012E695 /* Creation */,
+				E437F2EA22D57C1E0012E695 /* Tidy */,
+				E437F2ED22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.m */,
+				E437F2EE22D57C1E0012E695 /* CXHTMLDocument.m */,
+				E437F2EF22D57C1E0012E695 /* CXMLNode_PrivateExtensions.h */,
+				E437F2F022D57C1E0012E695 /* CXMLElement_CreationExtensions.m */,
+				E437F2F122D57C1E0012E695 /* CXMLElement.m */,
+				E437F2F222D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.h */,
+				E437F2F322D57C1E0012E695 /* CXMLUnsupportedNode.h */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E437F2E522D57C1E0012E695 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				E437F2E622D57C1E0012E695 /* CXMLNode_CreationExtensions.h */,
+				E437F2E722D57C1E0012E695 /* CXMLDocument_CreationExtensions.h */,
+				E437F2E822D57C1E0012E695 /* CXMLNode_CreationExtensions.m */,
+				E437F2E922D57C1E0012E695 /* CXMLDocument_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		E437F2EA22D57C1E0012E695 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				E437F2EB22D57C1E0012E695 /* CTidy.h */,
+				E437F2EC22D57C1E0012E695 /* CTidy.m */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		E437F30222D57C9B0012E695 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E437F34822D600370012E695 /* KFAReadView.h */,
+				E437F34922D600370012E695 /* KFAReadView.m */,
+				E437F34E22D601A80012E695 /* KFAMagnifierView.h */,
+				E437F34F22D601A80012E695 /* KFAMagnifierView.m */,
+				E437F36222D611470012E695 /* KFATopMenuView.h */,
+				E437F36322D611470012E695 /* KFATopMenuView.m */,
+				E437F36522D6117A0012E695 /* KFABottomMenuView.h */,
+				E437F36622D6117A0012E695 /* KFABottomMenuView.m */,
+				E437F36822D611E80012E695 /* KFAMenuView.h */,
+				E437F36922D611E80012E695 /* KFAMenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E437F30322D57C9B0012E695 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E437F31F22D5811F0012E695 /* KFAChapterModel.h */,
+				E437F32022D5811F0012E695 /* KFAChapterModel.m */,
+				E437F33922D5C2E10012E695 /* KFARecordModel.h */,
+				E437F33A22D5C2E10012E695 /* KFARecordModel.m */,
+				E437F33C22D5C3850012E695 /* KFANoteModel.h */,
+				E437F33D22D5C3850012E695 /* KFANoteModel.m */,
+				E437F33F22D5C8DF0012E695 /* KFAMarkModel.h */,
+				E437F34022D5C8DF0012E695 /* KFAMarkModel.m */,
+				E437F34222D5C9680012E695 /* KFAReadModel.h */,
+				E437F34322D5C9680012E695 /* KFAReadModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E437F30422D57C9B0012E695 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E437F33022D5BDCE0012E695 /* KFAReadConfig.h */,
+				E437F33122D5BDCE0012E695 /* KFAReadConfig.m */,
+				E437F33322D5C0360012E695 /* KFAReadParser.h */,
+				E437F33422D5C0360012E695 /* KFAReadParser.m */,
+				E437F34522D5E5390012E695 /* KFAReadUtilites.h */,
+				E437F34622D5E5390012E695 /* KFAReadUtilites.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E437F30522D57C9B0012E695 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E437F30622D57D4A0012E695 /* KFAReader.h */,
+				E437F30722D57D4A0012E695 /* KFAReader.m */,
+				E437F34B22D6005C0012E695 /* KFAReadViewController.h */,
+				E437F34C22D6005C0012E695 /* KFAReadViewController.m */,
+				E437F35122D606430012E695 /* KFAViewPagerVC.h */,
+				E437F35222D606430012E695 /* KFAViewPagerVC.m */,
+				E437F35622D60B750012E695 /* KFACatalogViewController.h */,
+				E437F35722D60B750012E695 /* KFACatalogViewController.m */,
+				E437F35922D60C2E0012E695 /* KFAChapterVC.h */,
+				E437F35A22D60C2E0012E695 /* KFAChapterVC.m */,
+				E437F35C22D60D390012E695 /* KFANoteVC.h */,
+				E437F35D22D60D390012E695 /* KFANoteVC.m */,
+				E437F35F22D60EE60012E695 /* KFAMarkVC.h */,
+				E437F36022D60EE60012E695 /* KFAMarkVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E437F30C22D57EF80012E695 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E437F30E22D57FDA0012E695 /* 每天懂一点好玩心理学.epub */,
+				E437F31522D57FDB0012E695 /* 细说明朝.epub */,
+				E437F37022D61F220012E695 /* mdjyml.txt */,
+				E437F31022D57FDA0012E695 /* bg_back_white.png */,
+				E437F31322D57FDA0012E695 /* bg_back_white@2x.png */,
+				E437F30D22D57FDA0012E695 /* ic_add.png */,
+				E437F31122D57FDA0012E695 /* r_drag-dot@2x.png */,
+				E437F31222D57FDA0012E695 /* reader_cover@2x.png */,
+				E437F30F22D57FDA0012E695 /* reader_more@2x.png */,
+				E437F31422D57FDA0012E695 /* sale_discount_yellow.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		E495C9B722B0DC000011C5C6 /* 编译相关 */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +467,8 @@
 				E4F34A8F22966BCA00B1620F /* KFAHotchpotchTests */,
 				E4F34A9A22966BCA00B1620F /* KFAHotchpotchUITests */,
 				E4F34A7522966BC900B1620F /* Products */,
+				F09A8CFC2D42DF88A0E66BD2 /* Pods */,
+				8E68AE8F50AEB1E208BDED26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +485,8 @@
 		E4F34A7622966BC900B1620F /* KFAHotchpotch */ = {
 			isa = PBXGroup;
 			children = (
+				E437F2D222D57C1E0012E695 /* 第三方 */,
+				E437F2D122D488B50012E695 /* 阅读器 */,
 				E495C9B722B0DC000011C5C6 /* 编译相关 */,
 				E4F34AA922966C2A00B1620F /* 链式 */,
 				E4F34A7722966BC900B1620F /* AppDelegate.h */,
@@ -185,6 +533,19 @@
 			path = "链式";
 			sourceTree = "<group>";
 		};
+		F09A8CFC2D42DF88A0E66BD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FDAFE3CAF0CAF1F91A09FF2 /* Pods-KFAHotchpotch.debug.xcconfig */,
+				B84D1A32C91034176DD6DC2C /* Pods-KFAHotchpotch.release.xcconfig */,
+				03E262BBF7621D8D392BD200 /* Pods-KFAHotchpotchTests.debug.xcconfig */,
+				C402A7AC3DE3BB188D7243B3 /* Pods-KFAHotchpotchTests.release.xcconfig */,
+				7287E6B6D5F899FE26E9401B /* Pods-KFAHotchpotchUITests.debug.xcconfig */,
+				44C10111A8581A503DBD89EB /* Pods-KFAHotchpotchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,6 +553,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F34AA022966BCB00B1620F /* Build configuration list for PBXNativeTarget "KFAHotchpotch" */;
 			buildPhases = (
+				E0C84B061544172DA4317A10 /* [CP] Check Pods Manifest.lock */,
 				E4F34A7022966BC900B1620F /* Sources */,
 				E4F34A7122966BC900B1620F /* Frameworks */,
 				E4F34A7222966BC900B1620F /* Resources */,
@@ -209,6 +571,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F34AA322966BCB00B1620F /* Build configuration list for PBXNativeTarget "KFAHotchpotchTests" */;
 			buildPhases = (
+				DDCA3FDE3F46F0B56861CC1A /* [CP] Check Pods Manifest.lock */,
 				E4F34A8822966BCA00B1620F /* Sources */,
 				E4F34A8922966BCA00B1620F /* Frameworks */,
 				E4F34A8A22966BCA00B1620F /* Resources */,
@@ -227,6 +590,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F34AA622966BCB00B1620F /* Build configuration list for PBXNativeTarget "KFAHotchpotchUITests" */;
 			buildPhases = (
+				5F2108FB41D530AD0BCA0B95 /* [CP] Check Pods Manifest.lock */,
 				E4F34A9322966BCA00B1620F /* Sources */,
 				E4F34A9422966BCA00B1620F /* Frameworks */,
 				E4F34A9522966BCA00B1620F /* Resources */,
@@ -289,10 +653,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E437F31622D57FDB0012E695 /* ic_add.png in Resources */,
 				E437F2CE22D46AE30012E695 /* KFACompileController.xib in Resources */,
+				E437F37122D61F220012E695 /* mdjyml.txt in Resources */,
+				E437F31E22D57FDB0012E695 /* 细说明朝.epub in Resources */,
+				E437F31822D57FDB0012E695 /* reader_more@2x.png in Resources */,
+				E437F36F22D61CE30012E695 /* KFAReaderDemoController.xib in Resources */,
+				E437F31D22D57FDB0012E695 /* sale_discount_yellow.png in Resources */,
 				E4F34A8422966BCA00B1620F /* LaunchScreen.storyboard in Resources */,
 				E4F34A8122966BCA00B1620F /* Assets.xcassets in Resources */,
+				E437F31922D57FDB0012E695 /* bg_back_white.png in Resources */,
+				E437F31A22D57FDB0012E695 /* r_drag-dot@2x.png in Resources */,
 				E4F34A7F22966BC900B1620F /* Main.storyboard in Resources */,
+				E437F31C22D57FDB0012E695 /* bg_back_white@2x.png in Resources */,
+				E437F31722D57FDB0012E695 /* 每天懂一点好玩心理学.epub in Resources */,
+				E437F31B22D57FDB0012E695 /* reader_cover@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,20 +687,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F2108FB41D530AD0BCA0B95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFAHotchpotchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDCA3FDE3F46F0B56861CC1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFAHotchpotchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C84B061544172DA4317A10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KFAHotchpotch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4F34A7022966BC900B1620F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E437F2FE22D57C1E0012E695 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				E437F2F922D57C1E0012E695 /* CXMLUnsupportedNode.m in Sources */,
+				E437F33E22D5C3850012E695 /* KFANoteModel.m in Sources */,
+				E437F2FC22D57C1E0012E695 /* CXMLDocument_CreationExtensions.m in Sources */,
+				E437F34422D5C9680012E695 /* KFAReadModel.m in Sources */,
 				E4F34AAC229678F100B1620F /* KFAChainedMD.m in Sources */,
+				E437F34122D5C8DF0012E695 /* KFAMarkModel.m in Sources */,
 				E495C9BD22B0DD810011C5C6 /* KFAMan.m in Sources */,
 				E4F34A7C22966BC900B1620F /* ViewController.m in Sources */,
+				E437F34722D5E5390012E695 /* KFAReadUtilites.m in Sources */,
+				E437F30122D57C1E0012E695 /* CXMLElement.m in Sources */,
+				E437F33222D5BDCE0012E695 /* KFAReadConfig.m in Sources */,
 				E495C9C022B0E03D0011C5C6 /* KFAWomen.m in Sources */,
+				E437F32122D5811F0012E695 /* KFAChapterModel.m in Sources */,
 				E437F2C422D469ED0012E695 /* KFAChainedDemoController.m in Sources */,
+				E437F2FD22D57C1E0012E695 /* CTidy.m in Sources */,
+				E437F36422D611470012E695 /* KFATopMenuView.m in Sources */,
+				E437F35322D606430012E695 /* KFAViewPagerVC.m in Sources */,
+				E437F2F622D57C1E0012E695 /* CXMLNamespaceNode.m in Sources */,
 				E495C9BA22B0DC230011C5C6 /* KFAPerson.m in Sources */,
+				E437F36722D6117A0012E695 /* KFABottomMenuView.m in Sources */,
+				E437F2F422D57C1E0012E695 /* CXMLDocument.m in Sources */,
+				E437F36A22D611E80012E695 /* KFAMenuView.m in Sources */,
 				E4F34A8722966BCA00B1620F /* main.m in Sources */,
+				E437F2FB22D57C1E0012E695 /* CXMLNode_CreationExtensions.m in Sources */,
+				E437F33522D5C0360012E695 /* KFAReadParser.m in Sources */,
+				E437F32F22D5B6F60012E695 /* UIImage+ImageEffects.m in Sources */,
+				E437F36E22D61CE30012E695 /* KFAReaderDemoController.m in Sources */,
+				E437F2F822D57C1E0012E695 /* CXMLNode_PrivateExtensions.m in Sources */,
+				E437F35E22D60D390012E695 /* KFANoteVC.m in Sources */,
+				E437F35B22D60C2E0012E695 /* KFAChapterVC.m in Sources */,
+				E437F35822D60B750012E695 /* KFACatalogViewController.m in Sources */,
 				E4F34A7922966BC900B1620F /* AppDelegate.m in Sources */,
+				E437F2F522D57C1E0012E695 /* CXMLNode.m in Sources */,
+				E437F2FA22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				E437F30822D57D4A0012E695 /* KFAReader.m in Sources */,
+				E437F2F722D57C1E0012E695 /* CXMLNode_XPathExtensions.m in Sources */,
+				E437F34A22D600370012E695 /* KFAReadView.m in Sources */,
+				E437F32E22D5B6F60012E695 /* NSString+HTML.m in Sources */,
+				E437F36122D60EE60012E695 /* KFAMarkVC.m in Sources */,
+				E437F2FF22D57C1E0012E695 /* CXHTMLDocument.m in Sources */,
+				E437F34D22D6005C0012E695 /* KFAReadViewController.m in Sources */,
+				E437F30022D57C1E0012E695 /* CXMLElement_CreationExtensions.m in Sources */,
+				E437F35022D601A80012E695 /* KFAMagnifierView.m in Sources */,
 				E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */,
+				E437F32D22D5B6F60012E695 /* GTMNSString+HTML.m in Sources */,
+				E437F33B22D5C2E10012E695 /* KFARecordModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,15 +964,33 @@
 		};
 		E4F34AA122966BCB00B1620F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FDAFE3CAF0CAF1F91A09FF2 /* Pods-KFAHotchpotch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/kfaaron/Desktop/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = KFAHotchpotch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"SSZipArchive\"",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Security\"",
+					"-lxml2",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kfaaron.KFAHotchpotch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,15 +1000,33 @@
 		};
 		E4F34AA222966BCB00B1620F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84D1A32C91034176DD6DC2C /* Pods-KFAHotchpotch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "/Users/kfaaron/Desktop/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SSZipArchive\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = KFAHotchpotch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"SSZipArchive\"",
+					"-l\"iconv\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Security\"",
+					"-lxml2",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kfaaron.KFAHotchpotch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,6 +1036,7 @@
 		};
 		E4F34AA422966BCB00B1620F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E262BBF7621D8D392BD200 /* Pods-KFAHotchpotchTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +1055,7 @@
 		};
 		E4F34AA522966BCB00B1620F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C402A7AC3DE3BB188D7243B3 /* Pods-KFAHotchpotchTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -566,6 +1074,7 @@
 		};
 		E4F34AA722966BCB00B1620F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7287E6B6D5F899FE26E9401B /* Pods-KFAHotchpotchUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KFAHotchpotchUITests/Info.plist;
@@ -583,6 +1092,7 @@
 		};
 		E4F34AA822966BCB00B1620F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C10111A8581A503DBD89EB /* Pods-KFAHotchpotchUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = KFAHotchpotchUITests/Info.plist;
