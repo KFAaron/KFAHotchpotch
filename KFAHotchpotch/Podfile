@@ -8,6 +8,7 @@ target 'KFAHotchpotch' do
   # Pods for KFAHotchpotch
 
 pod 'SSZipArchive'
+#pod 'AFNetworking'
 
   target 'KFAHotchpotchTests' do
     inherit! :search_paths

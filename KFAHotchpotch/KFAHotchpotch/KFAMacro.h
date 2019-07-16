@@ -25,4 +25,37 @@
 # define KFADetailLog(...);
 #endif
 
+// 内存
+#ifndef kfa_weakify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define kfa_weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#else
+#define kfa_weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define kfa_weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+#else
+#define kfa_weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+#endif
+#endif
+#endif
+
+#ifndef kfa_strongify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define kfa_strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+#else
+#define kfa_strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define kfa_strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+#else
+#define kfa_strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+#endif
+#endif
+#endif
+
 #endif /* KFAMacro_h */
