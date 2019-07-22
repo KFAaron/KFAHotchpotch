@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		0A22912941B82C6D366D9391 /* libPods-KFAHotchpotchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB33642AC7E2324793BB73DD /* libPods-KFAHotchpotchTests.a */; };
 		6265E417478E9F40AD5C346F /* libPods-KFAHotchpotch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F72522146C02B3B855A2E7E /* libPods-KFAHotchpotch.a */; };
+		E4062A9A22E5C81600334AD6 /* KFASegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062A9922E5C81600334AD6 /* KFASegmentControl.m */; };
+		E4062A9D22E5C96200334AD6 /* KFASegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062A9C22E5C96200334AD6 /* KFASegmentScrollView.m */; };
+		E4062AA022E5C9B600334AD6 /* KFASegmentControlItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062A9F22E5C9B600334AD6 /* KFASegmentControlItem.m */; };
+		E4062AA322E5CA1700334AD6 /* KFASegmentFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062AA222E5CA1700334AD6 /* KFASegmentFactory.m */; };
+		E4062AA622E5CC5900334AD6 /* UIView+KFASement.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062AA522E5CC5900334AD6 /* UIView+KFASement.m */; };
+		E4062AA922E5CDA200334AD6 /* KFAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062AA822E5CDA200334AD6 /* KFAPageViewController.m */; };
+		E4062AAD22E5CE3800334AD6 /* KFAPageViewControllerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062AAC22E5CE3800334AD6 /* KFAPageViewControllerItem.m */; };
 		E40941B222DD8E1100D09721 /* KFANetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E40941B122DD8E1100D09721 /* KFANetworkReachabilityManager.m */; };
 		E40941B522DDA65900D09721 /* KFAMusicPlayerRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E40941B422DDA65900D09721 /* KFAMusicPlayerRequestManager.m */; };
 		E40941B822DDA8AF00D09721 /* KFAMusicPlayerResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E40941B722DDA8AF00D09721 /* KFAMusicPlayerResourceLoader.m */; };
@@ -122,6 +129,21 @@
 		B84D1A32C91034176DD6DC2C /* Pods-KFAHotchpotch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotch.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotch/Pods-KFAHotchpotch.release.xcconfig"; sourceTree = "<group>"; };
 		C402A7AC3DE3BB188D7243B3 /* Pods-KFAHotchpotchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchTests/Pods-KFAHotchpotchTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB33642AC7E2324793BB73DD /* libPods-KFAHotchpotchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFAHotchpotchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4062A9822E5C81600334AD6 /* KFASegmentControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFASegmentControl.h; sourceTree = "<group>"; };
+		E4062A9922E5C81600334AD6 /* KFASegmentControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFASegmentControl.m; sourceTree = "<group>"; };
+		E4062A9B22E5C96200334AD6 /* KFASegmentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFASegmentScrollView.h; sourceTree = "<group>"; };
+		E4062A9C22E5C96200334AD6 /* KFASegmentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFASegmentScrollView.m; sourceTree = "<group>"; };
+		E4062A9E22E5C9B600334AD6 /* KFASegmentControlItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFASegmentControlItem.h; sourceTree = "<group>"; };
+		E4062A9F22E5C9B600334AD6 /* KFASegmentControlItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFASegmentControlItem.m; sourceTree = "<group>"; };
+		E4062AA122E5CA1700334AD6 /* KFASegmentFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFASegmentFactory.h; sourceTree = "<group>"; };
+		E4062AA222E5CA1700334AD6 /* KFASegmentFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFASegmentFactory.m; sourceTree = "<group>"; };
+		E4062AA422E5CC5900334AD6 /* UIView+KFASement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+KFASement.h"; sourceTree = "<group>"; };
+		E4062AA522E5CC5900334AD6 /* UIView+KFASement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+KFASement.m"; sourceTree = "<group>"; };
+		E4062AA722E5CDA200334AD6 /* KFAPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAPageViewController.h; sourceTree = "<group>"; };
+		E4062AA822E5CDA200334AD6 /* KFAPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAPageViewController.m; sourceTree = "<group>"; };
+		E4062AAA22E5CDFE00334AD6 /* KFAPageViewControllerMoveEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAPageViewControllerMoveEvent.h; sourceTree = "<group>"; };
+		E4062AAB22E5CE3800334AD6 /* KFAPageViewControllerItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAPageViewControllerItem.h; sourceTree = "<group>"; };
+		E4062AAC22E5CE3800334AD6 /* KFAPageViewControllerItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAPageViewControllerItem.m; sourceTree = "<group>"; };
 		E40941B022DD8E1100D09721 /* KFANetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFANetworkReachabilityManager.h; sourceTree = "<group>"; };
 		E40941B122DD8E1100D09721 /* KFANetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFANetworkReachabilityManager.m; sourceTree = "<group>"; };
 		E40941B322DDA65900D09721 /* KFAMusicPlayerRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAMusicPlayerRequestManager.h; sourceTree = "<group>"; };
@@ -314,6 +336,36 @@
 				23E075BD681A1CEEB8BCB5C1 /* libPods-KFAHotchpotchUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4062A9622E5C7F600334AD6 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				E4062A9722E5C7F600334AD6 /* SegmentControl */,
+				E4062AA722E5CDA200334AD6 /* KFAPageViewController.h */,
+				E4062AA822E5CDA200334AD6 /* KFAPageViewController.m */,
+				E4062AAA22E5CDFE00334AD6 /* KFAPageViewControllerMoveEvent.h */,
+				E4062AAB22E5CE3800334AD6 /* KFAPageViewControllerItem.h */,
+				E4062AAC22E5CE3800334AD6 /* KFAPageViewControllerItem.m */,
+			);
+			path = Segment;
+			sourceTree = "<group>";
+		};
+		E4062A9722E5C7F600334AD6 /* SegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				E4062A9822E5C81600334AD6 /* KFASegmentControl.h */,
+				E4062A9922E5C81600334AD6 /* KFASegmentControl.m */,
+				E4062A9B22E5C96200334AD6 /* KFASegmentScrollView.h */,
+				E4062A9C22E5C96200334AD6 /* KFASegmentScrollView.m */,
+				E4062A9E22E5C9B600334AD6 /* KFASegmentControlItem.h */,
+				E4062A9F22E5C9B600334AD6 /* KFASegmentControlItem.m */,
+				E4062AA122E5CA1700334AD6 /* KFASegmentFactory.h */,
+				E4062AA222E5CA1700334AD6 /* KFASegmentFactory.m */,
+				E4062AA422E5CC5900334AD6 /* UIView+KFASement.h */,
+				E4062AA522E5CC5900334AD6 /* UIView+KFASement.m */,
+			);
+			path = SegmentControl;
 			sourceTree = "<group>";
 		};
 		E40941C122DDEA4300D09721 /* resource */ = {
@@ -586,6 +638,7 @@
 		E4F34A7622966BC900B1620F /* KFAHotchpotch */ = {
 			isa = PBXGroup;
 			children = (
+				E4062A9622E5C7F600334AD6 /* Segment */,
 				E43F0FA822D85B8D00409960 /* 音乐播放器 */,
 				E437F2D222D57C1E0012E695 /* 第三方 */,
 				E437F2D122D488B50012E695 /* 阅读器 */,
@@ -867,9 +920,12 @@
 				E437F34122D5C8DF0012E695 /* KFAMarkModel.m in Sources */,
 				E495C9BD22B0DD810011C5C6 /* KFAMan.m in Sources */,
 				E4F34A7C22966BC900B1620F /* ViewController.m in Sources */,
+				E4062AA322E5CA1700334AD6 /* KFASegmentFactory.m in Sources */,
 				E437F34722D5E5390012E695 /* KFAReadUtilites.m in Sources */,
 				E40941BB22DDB4A700D09721 /* KFAPlayerLyricsTableview.m in Sources */,
+				E4062A9A22E5C81600334AD6 /* KFASegmentControl.m in Sources */,
 				E437F30122D57C1E0012E695 /* CXMLElement.m in Sources */,
+				E4062AA622E5CC5900334AD6 /* UIView+KFASement.m in Sources */,
 				E437F33222D5BDCE0012E695 /* KFAReadConfig.m in Sources */,
 				E495C9C022B0E03D0011C5C6 /* KFAWomen.m in Sources */,
 				E437F32122D5811F0012E695 /* KFAChapterModel.m in Sources */,
@@ -877,6 +933,7 @@
 				E437F2FD22D57C1E0012E695 /* CTidy.m in Sources */,
 				E437F36422D611470012E695 /* KFATopMenuView.m in Sources */,
 				E437F35322D606430012E695 /* KFAViewPagerVC.m in Sources */,
+				E4062A9D22E5C96200334AD6 /* KFASegmentScrollView.m in Sources */,
 				E437F2F622D57C1E0012E695 /* CXMLNamespaceNode.m in Sources */,
 				E43F0FB122D85BCF00409960 /* KFAMusicPlayer.m in Sources */,
 				E495C9BA22B0DC230011C5C6 /* KFAPerson.m in Sources */,
@@ -884,6 +941,7 @@
 				E40941B222DD8E1100D09721 /* KFANetworkReachabilityManager.m in Sources */,
 				E437F36722D6117A0012E695 /* KFABottomMenuView.m in Sources */,
 				E437F2F422D57C1E0012E695 /* CXMLDocument.m in Sources */,
+				E4062AA922E5CDA200334AD6 /* KFAPageViewController.m in Sources */,
 				E437F36A22D611E80012E695 /* KFAMenuView.m in Sources */,
 				E4F34A8722966BCA00B1620F /* main.m in Sources */,
 				E437F2FB22D57C1E0012E695 /* CXMLNode_CreationExtensions.m in Sources */,
@@ -907,6 +965,7 @@
 				E43F0FC022DC5ACB00409960 /* KFAMusicPlayerRemoteApplication.m in Sources */,
 				E437F2F722D57C1E0012E695 /* CXMLNode_XPathExtensions.m in Sources */,
 				E437F34A22D600370012E695 /* KFAReadView.m in Sources */,
+				E4062AAD22E5CE3800334AD6 /* KFAPageViewControllerItem.m in Sources */,
 				E437F32E22D5B6F60012E695 /* NSString+HTML.m in Sources */,
 				E437F36122D60EE60012E695 /* KFAMarkVC.m in Sources */,
 				E437F2FF22D57C1E0012E695 /* CXHTMLDocument.m in Sources */,
@@ -914,6 +973,7 @@
 				E437F30022D57C1E0012E695 /* CXMLElement_CreationExtensions.m in Sources */,
 				E437F35022D601A80012E695 /* KFAMagnifierView.m in Sources */,
 				E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */,
+				E4062AA022E5C9B600334AD6 /* KFASegmentControlItem.m in Sources */,
 				E437F32D22D5B6F60012E695 /* GTMNSString+HTML.m in Sources */,
 				E437F33B22D5C2E10012E695 /* KFARecordModel.m in Sources */,
 			);

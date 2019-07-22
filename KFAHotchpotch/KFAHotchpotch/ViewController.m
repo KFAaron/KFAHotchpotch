@@ -34,7 +34,8 @@ static NSString * const kClassName = @"kClassName";
   @{kTitle:@"编译",kClassName:@"KFACompileController"},
   @{kTitle:@"链式",kClassName:@"KFAChainedDemoController"},
   @{kTitle:@"阅读器",kClassName:@"KFAReaderDemoController"},
-  @{kTitle:@"音乐播放器",kClassName:@"KFAMusicDemoController"}];
+  @{kTitle:@"音乐播放器",kClassName:@"KFAMusicDemoController"},
+  @{kTitle:@"Segment",kClassName:@"KFAPageViewController"}];
         arr;
     });
 }
