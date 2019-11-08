@@ -26,6 +26,8 @@
 		E40941C522DDEB5500D09721 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E40941C422DDEB5400D09721 /* pause@2x.png */; };
 		E40941C722DDEE5100D09721 /* next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E40941C622DDEE5100D09721 /* next@2x.png */; };
 		E40941C922DDEFEE00D09721 /* previous@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E40941C822DDEFEE00D09721 /* previous@2x.png */; };
+		E417C15523750B2400EDE474 /* KFAAuthorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E417C15323750B2400EDE474 /* KFAAuthorityViewController.m */; };
+		E417C15623750B2400EDE474 /* KFAAuthorityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E417C15423750B2400EDE474 /* KFAAuthorityViewController.xib */; };
 		E437F2C422D469ED0012E695 /* KFAChainedDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */; };
 		E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */ = {isa = PBXBuildFile; fileRef = E437F2CB22D46AE30012E695 /* KFACompileController.m */; };
 		E437F2CE22D46AE30012E695 /* KFACompileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E437F2CC22D46AE30012E695 /* KFACompileController.xib */; };
@@ -159,6 +161,9 @@
 		E40941C422DDEB5400D09721 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
 		E40941C622DDEE5100D09721 /* next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next@2x.png"; sourceTree = "<group>"; };
 		E40941C822DDEFEE00D09721 /* previous@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous@2x.png"; sourceTree = "<group>"; };
+		E417C15223750B2400EDE474 /* KFAAuthorityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAAuthorityViewController.h; sourceTree = "<group>"; };
+		E417C15323750B2400EDE474 /* KFAAuthorityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAAuthorityViewController.m; sourceTree = "<group>"; };
+		E417C15423750B2400EDE474 /* KFAAuthorityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KFAAuthorityViewController.xib; sourceTree = "<group>"; };
 		E437F2C222D469ED0012E695 /* KFAChainedDemoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAChainedDemoController.h; sourceTree = "<group>"; };
 		E437F2C322D469ED0012E695 /* KFAChainedDemoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAChainedDemoController.m; sourceTree = "<group>"; };
 		E437F2CA22D46AE30012E695 /* KFACompileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFACompileController.h; sourceTree = "<group>"; };
@@ -378,6 +383,16 @@
 				E40941C822DDEFEE00D09721 /* previous@2x.png */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		E417C15123750AD600EDE474 /* 系统权限 */ = {
+			isa = PBXGroup;
+			children = (
+				E417C15223750B2400EDE474 /* KFAAuthorityViewController.h */,
+				E417C15323750B2400EDE474 /* KFAAuthorityViewController.m */,
+				E417C15423750B2400EDE474 /* KFAAuthorityViewController.xib */,
+			);
+			path = "系统权限";
 			sourceTree = "<group>";
 		};
 		E437F2D122D488B50012E695 /* 阅读器 */ = {
@@ -638,6 +653,7 @@
 		E4F34A7622966BC900B1620F /* KFAHotchpotch */ = {
 			isa = PBXGroup;
 			children = (
+				E417C15123750AD600EDE474 /* 系统权限 */,
 				E4062A9622E5C7F600334AD6 /* Segment */,
 				E43F0FA822D85B8D00409960 /* 音乐播放器 */,
 				E437F2D222D57C1E0012E695 /* 第三方 */,
@@ -825,6 +841,7 @@
 				E4F34A7F22966BC900B1620F /* Main.storyboard in Resources */,
 				E40941C022DDD71A00D09721 /* 张杰-三生三世.mp3 in Resources */,
 				E40941C922DDEFEE00D09721 /* previous@2x.png in Resources */,
+				E417C15623750B2400EDE474 /* KFAAuthorityViewController.xib in Resources */,
 				E437F31C22D57FDB0012E695 /* bg_back_white@2x.png in Resources */,
 				E437F31722D57FDB0012E695 /* 每天懂一点好玩心理学.epub in Resources */,
 				E437F31B22D57FDB0012E695 /* reader_cover@2x.png in Resources */,
@@ -955,6 +972,7 @@
 				E43F0FAD22D85BA300409960 /* KFAMusicDemoController.m in Sources */,
 				E437F35822D60B750012E695 /* KFACatalogViewController.m in Sources */,
 				E43F0FBA22DC549300409960 /* UIImage+KFAMusicPlayerImage.m in Sources */,
+				E417C15523750B2400EDE474 /* KFAAuthorityViewController.m in Sources */,
 				E4F34A7922966BC900B1620F /* AppDelegate.m in Sources */,
 				E437F2F522D57C1E0012E695 /* CXMLNode.m in Sources */,
 				E437F2FA22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m in Sources */,
@@ -1148,8 +1166,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2FBXDD9E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/kfaaron/Desktop/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/kfaaron/Documents/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1157,7 +1176,7 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = KFAHotchpotch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1184,8 +1203,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9T2FBXDD9E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/kfaaron/Desktop/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/kfaaron/Documents/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1193,7 +1213,7 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = KFAHotchpotch/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

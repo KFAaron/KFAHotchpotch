@@ -8,12 +8,8 @@
 
 #import "ViewController.h"
 
-static NSString * const kTitle = @"kTitle";
-static NSString * const kClassName = @"kClassName";
-
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, copy) NSArray *dataSource;
 
 @end
@@ -24,7 +20,6 @@ static NSString * const kClassName = @"kClassName";
     [super viewDidLoad];
     
     [self configDatasource];
-    [self.tableView reloadData];
 }
 
 - (void)configDatasource {
@@ -35,7 +30,8 @@ static NSString * const kClassName = @"kClassName";
   @{kTitle:@"链式",kClassName:@"KFAChainedDemoController"},
   @{kTitle:@"阅读器",kClassName:@"KFAReaderDemoController"},
   @{kTitle:@"音乐播放器",kClassName:@"KFAMusicDemoController"},
-  @{kTitle:@"Segment",kClassName:@"KFAPageViewController"}];
+  @{kTitle:@"Segment",kClassName:@"KFAPageViewController"},
+  @{kTitle:@"系统权限",kClassName:@"KFAAuthorityViewController"}];
         arr;
     });
 }

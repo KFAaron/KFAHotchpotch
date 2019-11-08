@@ -58,4 +58,10 @@
 #endif
 #endif
 
+//自定义字符串
+#define kTitle               @"kTitle"
+#define kClassName   @"kClassName"
+#define kUsageDescription   @"kUsageDescription"
+#define kAuthorityMethod     @"kAuthorityMethod"
+
 #endif /* KFAMacro_h */
