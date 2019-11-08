@@ -155,6 +155,9 @@
 - (NSArray *)modelArray {
     if (!_modelArray) {
         _modelArray = @[
+                        @"http://fs.ios.kugou.com/201907250016/4156fa0afd4eaedd8900add1f8994560/G080/M08/1A/03/MJQEAFhWFyyAQhaqAC-MI-z-Vx8982.mp3",
+                        @"http://fs.ios.kugou.com/201907250017/6338bf5c4e68628acd573498da6883de/G009/M00/1F/17/qYYBAFTXM8qAdveMAE9EvYz7R0E659.mp3",
+                        @"http://fs.ios.kugou.com/201907250017/43e989db1aa7eee077fccf8bff43266d/G007/M06/03/10/Rw0DAFS5pH-AOPAeADNbtTKnAgw475.mp3",
                         @"http://fs.ios.kugou.com/201907161750/e4e892474ad6fb30400b41ae44006172/G129/M0A/00/1F/YZQEAFpTAUCAaVEGADOLdQKpwCg960.mp3",
                         @"http://fs.ios.kugou.com/201907161643/e58a329442f080b011a9fee1ef3c23b8/G135/M06/17/13/xw0DAFtHOJOACZiNAEUe3eVFTx8339.mp3",
                         @"http://fs.ios.kugou.com/201907161754/1ad4abe8407848bad7e88eddbc6d7f08/G014/M0B/07/01/Tg0DAFUYQO-AR2F0AEo6KmS6Xo4986.mp3",

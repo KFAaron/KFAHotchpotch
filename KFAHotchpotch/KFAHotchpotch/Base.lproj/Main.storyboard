@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sCh-dq-IrP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sCh-dq-IrP">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,6 +13,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KIz-dX-JeH"/>
+                        <viewControllerLayoutGuide type="bottom" id="mw9-6c-Trt"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,12 +52,11 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="mr9-BI-7m9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Exv-R2-lBw"/>
-                            <constraint firstItem="mr9-BI-7m9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hIo-jz-eJU"/>
-                            <constraint firstItem="mr9-BI-7m9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lzq-HY-oxp"/>
+                            <constraint firstItem="mr9-BI-7m9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Exv-R2-lBw"/>
+                            <constraint firstItem="mr9-BI-7m9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hIo-jz-eJU"/>
+                            <constraint firstItem="mr9-BI-7m9" firstAttribute="top" secondItem="KIz-dX-JeH" secondAttribute="bottom" id="lzq-HY-oxp"/>
                             <constraint firstAttribute="bottom" secondItem="mr9-BI-7m9" secondAttribute="bottom" id="tGc-Qi-GCl"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="KFAHotchpotch" id="Dao-c3-0cj"/>
                     <connections>
