@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A22912941B82C6D366D9391 /* libPods-KFAHotchpotchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB33642AC7E2324793BB73DD /* libPods-KFAHotchpotchTests.a */; };
 		6265E417478E9F40AD5C346F /* libPods-KFAHotchpotch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F72522146C02B3B855A2E7E /* libPods-KFAHotchpotch.a */; };
+		697BBEE82424FBE100E11F56 /* KFAStringTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 697BBEE72424FBE100E11F56 /* KFAStringTestClass.m */; };
 		E4062A9A22E5C81600334AD6 /* KFASegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062A9922E5C81600334AD6 /* KFASegmentControl.m */; };
 		E4062A9D22E5C96200334AD6 /* KFASegmentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062A9C22E5C96200334AD6 /* KFASegmentScrollView.m */; };
 		E4062AA022E5C9B600334AD6 /* KFASegmentControlItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4062A9F22E5C9B600334AD6 /* KFASegmentControlItem.m */; };
@@ -126,6 +127,8 @@
 		1F72522146C02B3B855A2E7E /* libPods-KFAHotchpotch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFAHotchpotch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E075BD681A1CEEB8BCB5C1 /* libPods-KFAHotchpotchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KFAHotchpotchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C10111A8581A503DBD89EB /* Pods-KFAHotchpotchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchUITests/Pods-KFAHotchpotchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		697BBEE62424FBE100E11F56 /* KFAStringTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAStringTestClass.h; sourceTree = "<group>"; };
+		697BBEE72424FBE100E11F56 /* KFAStringTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAStringTestClass.m; sourceTree = "<group>"; };
 		6FDAFE3CAF0CAF1F91A09FF2 /* Pods-KFAHotchpotch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotch/Pods-KFAHotchpotch.debug.xcconfig"; sourceTree = "<group>"; };
 		7287E6B6D5F899FE26E9401B /* Pods-KFAHotchpotchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotchUITests/Pods-KFAHotchpotchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B84D1A32C91034176DD6DC2C /* Pods-KFAHotchpotch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFAHotchpotch.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFAHotchpotch/Pods-KFAHotchpotch.release.xcconfig"; sourceTree = "<group>"; };
@@ -671,6 +674,8 @@
 				E4F34A8622966BCA00B1620F /* main.m */,
 				E437F2CF22D47E430012E695 /* KFAHotchpotch-prefix.pch */,
 				E437F2D022D47E980012E695 /* KFAMacro.h */,
+				697BBEE62424FBE100E11F56 /* KFAStringTestClass.h */,
+				697BBEE72424FBE100E11F56 /* KFAStringTestClass.m */,
 			);
 			path = KFAHotchpotch;
 			sourceTree = "<group>";
@@ -977,6 +982,7 @@
 				E437F2F522D57C1E0012E695 /* CXMLNode.m in Sources */,
 				E437F2FA22D57C1E0012E695 /* CXMLElement_ElementTreeExtensions.m in Sources */,
 				E40941B822DDA8AF00D09721 /* KFAMusicPlayerResourceLoader.m in Sources */,
+				697BBEE82424FBE100E11F56 /* KFAStringTestClass.m in Sources */,
 				E43F0FBD22DC554200409960 /* KFAMusicPlayerTool.m in Sources */,
 				E437F30822D57D4A0012E695 /* KFAReader.m in Sources */,
 				E43F0FB422D85DA200409960 /* KFAMusicModel.m in Sources */,
@@ -1168,7 +1174,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T2FBXDD9E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/kfaaron/Documents/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/kefanaaron/Desktop/KFAOpenSource/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1205,7 +1211,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T2FBXDD9E;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/kfaaron/Documents/KFAaron/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/kefanaaron/Desktop/KFAOpenSource/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

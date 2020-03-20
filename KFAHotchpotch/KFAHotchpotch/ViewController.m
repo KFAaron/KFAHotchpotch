@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "KFAStringTestClass.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -19,7 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self configDatasource];
+//    [self configDatasource];
+    [KFAStringTestClass test];
 }
 
 - (void)configDatasource {
