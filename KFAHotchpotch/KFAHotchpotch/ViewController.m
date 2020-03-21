@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "KFAStringTestClass.h"
+//#import "KFAStringTestClass.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -20,8 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self configDatasource];
-    [KFAStringTestClass test];
+    [self configDatasource];
+//    [KFAStringTestClass test];
 }
 
 - (void)configDatasource {
@@ -33,7 +33,8 @@
   @{kTitle:@"阅读器",kClassName:@"KFAReaderDemoController"},
   @{kTitle:@"音乐播放器",kClassName:@"KFAMusicDemoController"},
   @{kTitle:@"Segment",kClassName:@"KFAPageViewController"},
-  @{kTitle:@"系统权限",kClassName:@"KFAAuthorityViewController"}];
+  @{kTitle:@"系统权限",kClassName:@"KFAAuthorityViewController"},
+  @{kTitle:@"加速度传感器",kClassName:@"KFAAccelerometerController"}];
         arr;
     });
 }
