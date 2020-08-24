@@ -95,6 +95,8 @@
 		E495C9BA22B0DC230011C5C6 /* KFAPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9B922B0DC230011C5C6 /* KFAPerson.m */; };
 		E495C9BD22B0DD810011C5C6 /* KFAMan.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9BC22B0DD810011C5C6 /* KFAMan.m */; };
 		E495C9C022B0E03D0011C5C6 /* KFAWomen.m in Sources */ = {isa = PBXBuildFile; fileRef = E495C9BF22B0E03D0011C5C6 /* KFAWomen.m */; };
+		E4C958FA24F41A0B00B1BCBD /* KFABiaoshifuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C958F924F41A0B00B1BCBD /* KFABiaoshifuViewController.m */; };
+		E4C958FD24F41AAA00B1BCBD /* KFABiaoshifuTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C958FC24F41AAA00B1BCBD /* KFABiaoshifuTool.m */; };
 		E4E3922BE0BE68DBA9A90C3E /* libPods-KFAHotchpotchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E075BD681A1CEEB8BCB5C1 /* libPods-KFAHotchpotchUITests.a */; };
 		E4F34A7922966BC900B1620F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F34A7822966BC900B1620F /* AppDelegate.m */; };
 		E4F34A7C22966BC900B1620F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F34A7B22966BC900B1620F /* ViewController.m */; };
@@ -291,6 +293,10 @@
 		E495C9BC22B0DD810011C5C6 /* KFAMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAMan.m; sourceTree = "<group>"; };
 		E495C9BE22B0E03D0011C5C6 /* KFAWomen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAWomen.h; sourceTree = "<group>"; };
 		E495C9BF22B0E03D0011C5C6 /* KFAWomen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAWomen.m; sourceTree = "<group>"; };
+		E4C958F824F41A0B00B1BCBD /* KFABiaoshifuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFABiaoshifuViewController.h; sourceTree = "<group>"; };
+		E4C958F924F41A0B00B1BCBD /* KFABiaoshifuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFABiaoshifuViewController.m; sourceTree = "<group>"; };
+		E4C958FB24F41AAA00B1BCBD /* KFABiaoshifuTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFABiaoshifuTool.h; sourceTree = "<group>"; };
+		E4C958FC24F41AAA00B1BCBD /* KFABiaoshifuTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFABiaoshifuTool.m; sourceTree = "<group>"; };
 		E4F34A7422966BC900B1620F /* KFAHotchpotch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFAHotchpotch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F34A7722966BC900B1620F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4F34A7822966BC900B1620F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -646,6 +652,17 @@
 			path = "编译相关";
 			sourceTree = "<group>";
 		};
+		E4C958F724F419F700B1BCBD /* 标识符 */ = {
+			isa = PBXGroup;
+			children = (
+				E4C958F824F41A0B00B1BCBD /* KFABiaoshifuViewController.h */,
+				E4C958F924F41A0B00B1BCBD /* KFABiaoshifuViewController.m */,
+				E4C958FB24F41AAA00B1BCBD /* KFABiaoshifuTool.h */,
+				E4C958FC24F41AAA00B1BCBD /* KFABiaoshifuTool.m */,
+			);
+			path = "标识符";
+			sourceTree = "<group>";
+		};
 		E4F34A6B22966BC900B1620F = {
 			isa = PBXGroup;
 			children = (
@@ -671,6 +688,7 @@
 		E4F34A7622966BC900B1620F /* KFAHotchpotch */ = {
 			isa = PBXGroup;
 			children = (
+				E4C958F724F419F700B1BCBD /* 标识符 */,
 				697BBEE92425C6F400E11F56 /* 加速度传感器 */,
 				E417C15123750AD600EDE474 /* 系统权限 */,
 				E4062A9622E5C7F600334AD6 /* Segment */,
@@ -1009,10 +1027,12 @@
 				E437F34A22D600370012E695 /* KFAReadView.m in Sources */,
 				E4062AAD22E5CE3800334AD6 /* KFAPageViewControllerItem.m in Sources */,
 				E437F32E22D5B6F60012E695 /* NSString+HTML.m in Sources */,
+				E4C958FD24F41AAA00B1BCBD /* KFABiaoshifuTool.m in Sources */,
 				E437F36122D60EE60012E695 /* KFAMarkVC.m in Sources */,
 				E437F2FF22D57C1E0012E695 /* CXHTMLDocument.m in Sources */,
 				E437F34D22D6005C0012E695 /* KFAReadViewController.m in Sources */,
 				E437F30022D57C1E0012E695 /* CXMLElement_CreationExtensions.m in Sources */,
+				E4C958FA24F41A0B00B1BCBD /* KFABiaoshifuViewController.m in Sources */,
 				E437F35022D601A80012E695 /* KFAMagnifierView.m in Sources */,
 				E437F2CD22D46AE30012E695 /* KFACompileController.m in Sources */,
 				E4062AA022E5C9B600334AD6 /* KFASegmentControlItem.m in Sources */,
@@ -1189,10 +1209,11 @@
 			baseConfigurationReference = 6FDAFE3CAF0CAF1F91A09FF2 /* Pods-KFAHotchpotch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T2FBXDD9E;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3WB4F23CG9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/kefanaaron/Desktop/KFAOpenSource/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1215,8 +1236,9 @@
 					"\"Security\"",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kfaaron.KFAHotchpotch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KFAHotchpotch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = yiche_Wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1226,10 +1248,11 @@
 			baseConfigurationReference = B84D1A32C91034176DD6DC2C /* Pods-KFAHotchpotch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T2FBXDD9E;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3WB4F23CG9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/kefanaaron/Desktop/KFAOpenSource/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch/KFAHotchpotch-prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KFAHotchpotch/KFAHotchpotch-prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -1252,8 +1275,9 @@
 					"\"Security\"",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kfaaron.KFAHotchpotch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KFAHotchpotch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = yiche_Wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

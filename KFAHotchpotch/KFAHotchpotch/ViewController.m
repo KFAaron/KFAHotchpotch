@@ -34,7 +34,8 @@
   @{kTitle:@"音乐播放器",kClassName:@"KFAMusicDemoController"},
   @{kTitle:@"Segment",kClassName:@"KFAPageViewController"},
   @{kTitle:@"系统权限",kClassName:@"KFAAuthorityViewController"},
-  @{kTitle:@"加速度传感器",kClassName:@"KFAAccelerometerController"}];
+  @{kTitle:@"加速度传感器",kClassName:@"KFAAccelerometerController"},
+        @{kTitle:@"标识符",kClassName:@"KFABiaoshifuViewController"}];
         arr;
     });
 }

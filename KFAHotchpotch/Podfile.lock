@@ -1,16 +1,16 @@
 PODS:
-  - SSZipArchive (2.2.2)
+  - SSZipArchive (2.2.3)
 
 DEPENDENCIES:
   - SSZipArchive
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - SSZipArchive
 
 SPEC CHECKSUMS:
-  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
+  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
 
 PODFILE CHECKSUM: ae991ee67a661dc85d708f3d7b4892119772c097
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1
