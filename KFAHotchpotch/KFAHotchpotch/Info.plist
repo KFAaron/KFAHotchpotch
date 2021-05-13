@@ -40,7 +40,7 @@
 	<key>NSHealthShareUsageDescription</key>
 	<string>健康分享</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>健康更新</string>
+	<string>请允许健康更新,以便给您带来更好的体验</string>
 	<key>NSHomeKitUsageDescription</key>
 	<string>住宅配件</string>
 	<key>NSLocationAlwaysUsageDescription</key>
